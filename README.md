@@ -13,9 +13,9 @@
   **BrowserRouter, Routes, Route, Link and useParams()** are used to bootstrap of VanLife app in this section.
 
   ### Visualization of the app;
-  ## List vans page;
+  ### List vans page;
 
   ![image](./1-react-router-introduction/list-vans.png)
   
-  ## List van detail page;
+  ### List van detail page;
   ![image](./1-react-router-introduction/list-detail.png)
