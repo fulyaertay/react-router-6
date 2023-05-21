@@ -7,7 +7,7 @@
   ## Overview
 
   Build rental van travel app using React Router 6 that is a part of [Scrimba](https://scrimba.com/learn/reactrouter6)'s React Router 6 course. I learned fundamentals and new features of react-router via this app.
-  You can see each steps creating this app below.
+  You can see each step creating this app below.
 
   ## 1-react-router-introduction
   **BrowserRouter, Routes, Route, Link and useParams()** are used to bootstrap of VanLife app in this section.
