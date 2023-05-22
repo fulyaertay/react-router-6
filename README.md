@@ -23,7 +23,7 @@
 
 
   ## 2-nested-routes
-  **Host** and **Vans** page and its nested routes added at this section. 
+  **Host** and **Vans** pages and its nested routes added at this section. 
     - When user opens Vans page, they can see listed vans.
     - User can clicks any van detail.
     - User can see van details, pricing and photos on related tabs.
