@@ -3,6 +3,7 @@
 - [Overview](#overview)
 - [1-react-router-introduction](#1-react-router-introduction)
 - [2-nested-routes](#2-nested-routes)
+- [3-search-params](#3-search-params)
 
   
   ## Overview
@@ -14,9 +15,6 @@
   **BrowserRouter, Routes, Route, Link and useParams()** are used to bootstrap of VanLife app at this section.
 
   ### Visualization of the app;
-  ### • Listing vans page;
-
-
   
   ### • Listing van detail page;
   ![image](./1-react-router-introduction/list-detail.png)
@@ -30,3 +28,11 @@
 
   ### Visualization of the app;
   ![image](./2-nested-routes/2-nested-routes.gif)
+  
+  
+  ## 3-search-params
+  **Simple, Luxury and Rugged** filters added on Vans page
+    - When user opens Vans page, they can see listed vans.
+
+  ### Visualization of the app;
+  ![image](./3-search-params/search-params.gif)
