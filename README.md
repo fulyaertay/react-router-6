@@ -33,6 +33,7 @@
   ## 3-search-params
   **Simple, Luxury and Rugged** filters added on Vans page
     - When user opens Vans page, they can see listed vans.
+    - User can filter van type accordig to Simple, Luxury or Rugged.
 
   ### Visualization of the app;
   ![image](./3-search-params/search-params.gif)
