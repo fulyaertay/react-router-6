@@ -32,7 +32,7 @@
   
   
   ## 3-search-params
-  **Simple, Luxury and Rugged** filters added on the Vans page
+  **Simple, Luxury and Rugged** filters added on the Vans Listing page
     - When user opens Vans page, they can see listed vans.
     - User can filter van type accordig to Simple, Luxury or Rugged.
 
@@ -42,8 +42,8 @@
   
   ## 4-loaders-and-errors
   Vans page are improved adding **useLoaderData() and useRouteError()** hooks.
-    - When user opens Vans page, all vans are listed with useLoaderData() not using state and useEffect()
-    - If there is an error fetching vans data, error page is thrown in detail
+    - When user opens Vans listing page, all vans are listed with useLoaderData() not using state and useEffect()
+    - If there is an error fetching to vans data, error page is thrown in detail
 
   ### • If there is no error on vans page;
   ![image](./4-loaders-and-errors/no-error.png)
