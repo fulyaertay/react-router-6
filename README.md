@@ -1,10 +1,10 @@
 ## Table of contents
 
 - [Overview](#overview)
-- [1-react-router-introduction](#1-react-router-introduction)
-- [2-nested-routes](#2-nested-routes)
-- [3-search-params](#3-search-params)
-- [4-loaders-and-errors](#4-loaders-and-errors)
+  - [1-react-router-introduction](#1-react-router-introduction)
+  - [2-nested-routes](#2-nested-routes)
+  - [3-search-params](#3-search-params)
+  - [4-loaders-and-errors](#4-loaders-and-errors)
 
   
   ## Overview
