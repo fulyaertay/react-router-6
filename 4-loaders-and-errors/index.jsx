@@ -5,7 +5,6 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
-  Link
 } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
@@ -26,25 +25,14 @@ import Error from "./components/Error"
 
 import "./server"
 
-/**
- * Challenge: Add an errorElement to the vans Route.
- * 
- * 1. This time, instead of just putting in an <h1> directly,
- *    you should make a new Error.jsx component in the components
- *    folder. (We'll learn something new about this soon). For now,
- *    that new component can just render the <h1>An error occurred!</h1>
- * 2. Import and use that new Error component as the errorElement
- *    on the /vans route.
- */
 
 const router = createBrowserRouter(createRoutesFromElements(
-  <Route path="/" element={<Layout />}>
+  <Route path="/" element={<Layout /> } errorElement={<Error />}>
     <Route index element={<Home />} />
     <Route path="about" element={<About />} />
     <Route
       path="vans"
       element={<Vans />}
-      errorElement={<Error />}
       loader={vansLoader}
     />
     <Route path="vans/:id" element={<VanDetail />} />
