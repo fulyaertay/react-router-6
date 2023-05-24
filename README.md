@@ -45,8 +45,8 @@
     - When user opens Vans page, all vans are listed with useLoaderData() not using state and useEffect()
     - If there is an error fetching vans data, error page is thrown in detail
 
-  ### if there is no error on vans page;
+  ### • If there is no error on vans page;
   ![image](./4-loaders-and-errors/no-error.png)
   
-  ### if there is an error on vans page;
+  ### • If there is an error on vans page;
   ![image](./4-loaders-and-errors/error.png)
