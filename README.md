@@ -4,6 +4,7 @@
 - [1-react-router-introduction](#1-react-router-introduction)
 - [2-nested-routes](#2-nested-routes)
 - [3-search-params](#3-search-params)
+- [4-loaders-and-errors](#4-loaders-and-errors)
 
   
   ## Overview
@@ -31,9 +32,21 @@
   
   
   ## 3-search-params
-  **Simple, Luxury and Rugged** filters added on Vans page
+  **Simple, Luxury and Rugged** filters added on the Vans page
     - When user opens Vans page, they can see listed vans.
     - User can filter van type accordig to Simple, Luxury or Rugged.
 
   ### Visualization of the app;
   ![image](./3-search-params/search-params.gif)
+  
+  
+  ## 4-loaders-and-errors
+  Vans page are improved adding **useLoaderData() and useRouteError()** hooks.
+    - When user opens Vans page, all vans are listed with useLoaderData() not using state and useEffect()
+    - If there is an error fetching vans data, error page is thrown in detail
+
+  ### • If there is no error on vans page;
+  ![image](./4-loaders-and-errors/no-error.png)
+  
+  ### • If there is an error on vans page;
+  ![image](./4-loaders-and-errors/error.png)
