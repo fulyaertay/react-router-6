@@ -5,6 +5,7 @@
   - [2-nested-routes](#2-nested-routes)
   - [3-search-params](#3-search-params)
   - [4-loaders-and-errors](#4-loaders-and-errors)
+  - [5-actions-and-protected-routes](#5-actions-and-protected-routes)
 
   
   ## Overview
@@ -42,11 +43,23 @@
   
   ## 4-loaders-and-errors
   Vans page are improved adding **useLoaderData() and useRouteError()** hooks.
-    - When user opens Vans listing page, all vans are listed with useLoaderData() not using state and useEffect()
-    - If there is an error fetching to vans data, error page is thrown in detail
+    - When user opens Vans listing page, all vans are listed with useLoaderData() not using state and useEffect().
+    - If there is an error fetching to vans data, error page is thrown in detail.
 
   ### • If there is no error on vans page;
   ![image](./4-loaders-and-errors/no-error.png)
   
   ### • If there is an error on vans page;
   ![image](./4-loaders-and-errors/error.png)
+
+
+ ## 5-actions-and-protected-routes
+ Log in form and protected routes added via  **loaders, actions, useLoaderData(), useActionData(), useNavigation() and React Router Form component**.
+   - When user opens Host page, they must log in.
+   - If they log in, they can see **Dashboard, Vans, Income and Reviews** pages.
+
+  ### • If users not log in;
+  ![image](./5-actions-and-protected-routes/notlogin.png)
+  
+  ### • If users log in;
+  ![image](./5-actions-and-protected-routes/login.png)
