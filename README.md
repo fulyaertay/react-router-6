@@ -59,7 +59,7 @@
     - If they log in, they can see **Dashboard, Vans, Income and Reviews** pages.
 
   ### • If users not log in;
-  ![image](./5-actions-and-protected-routes/not.png)
+  ![image](./5-actions-and-protected-routes/notlogin.png)
   
   ### • If users log in;
-  ![image](./5-actions-and-protected-routess/login.png)
+  ![image](./5-actions-and-protected-routes/login.png)
