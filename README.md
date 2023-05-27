@@ -54,9 +54,9 @@
 
 
  ## 5-actions-and-protected-routes
- Log in forms and protected routes added via  **loaders, actions, useLoaderData(), useActionData(), useNavigation() and React Router Form component**.
-    - When user opens Host page, they must log in.
-    - If they log in, they can see **Dashboard, Vans, Income and Reviews** pages.
+ Log in form and protected routes added via  **loaders, actions, useLoaderData(), useActionData(), useNavigation() and React Router Form component**.
+   - When user opens Host page, they must log in.
+   - If they log in, they can see **Dashboard, Vans, Income and Reviews** pages.
 
   ### • If users not log in;
   ![image](./5-actions-and-protected-routes/notlogin.png)
