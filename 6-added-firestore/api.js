@@ -9,14 +9,17 @@ import {
     where
 } from "firebase/firestore/lite"
 
+
+// Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyD_k3v3HK3tKEqhlqFHPkwogW7PqEqhGhk",
-    authDomain: "vanlife-a1af5.firebaseapp.com",
-    projectId: "vanlife-a1af5",
-    storageBucket: "vanlife-a1af5.appspot.com",
-    messagingSenderId: "803007000356",
-    appId: "1:803007000356:web:446cd3a1ca406839258db1"
+  apiKey: "AIzaSyCLvY1xg-XeQs0AGBCRurW5sH4OzVdYyuA",
+  authDomain: "vans-32afe.firebaseapp.com",
+  projectId: "vans-32afe",
+  storageBucket: "vans-32afe.appspot.com",
+  messagingSenderId: "454288534006",
+  appId: "1:454288534006:web:9e9ec6cb9280f1663f7fd7"
 };
+
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app)
