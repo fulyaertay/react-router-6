@@ -6,6 +6,7 @@
   - [3-search-params](#3-search-params)
   - [4-loaders-and-errors](#4-loaders-and-errors)
   - [5-actions-and-protected-routes](#5-actions-and-protected-routes)
+  - [6-added-firestore](#6-added-firestore)
 
   
   ## Overview
@@ -63,3 +64,10 @@
   
   ### • If users log in;
   ![image](./5-actions-and-protected-routes/login.png)
+  
+  
+  
+ ## 6-added-firestore
+ Real firestore added usign Firebase. 
+  - Vans collections added an listed on the Vans page 
+  - You can check out [this live website:] (https://fe-vans-app.netlify.app/)
